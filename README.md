@@ -14,7 +14,7 @@ The seeders created 1 user for you
 
 1. gino@test.com
 
-User password provided in zipped folder in the email I sent
+User password provided in zipped folder in the email I sent (in env file)
 
 In order to test in Postman, please consume the request "Login User", with the credentials I provided, this will return a token, since every time we book a class or delete a class booking, we should do that on behalf of a user.
 Just for testing purposes I'm allowing the same user to book the same class more than once.
