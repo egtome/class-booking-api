@@ -16,10 +16,9 @@ The seeders created 1 user for you
 
 User password provided in zipped folder in the email I sent
 
+In order to test in Postman, please consume the request "Login User", with the credentials I provided, this will return a token, since every time we book a class or delete a class booking, we should do that on behalf of a user.
+Just for testing purposes I'm allowing the same user to book the same class more than once.
+
 Consume API:
 I created and exported ALL the endpoints to use with Postman for you, please check the
 attached zipped folder in the email “Class Booking API.postman_collection” and also “Class Booking API.postman_environment”
-
-Run API tests:
-I wrote a total of 33 tests, to run them:
-From the console, step in root directory and run: vendor/bin/phpunit tests/Feature
